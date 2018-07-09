@@ -4,16 +4,16 @@
 
 .. copy across your travis "build..." logo so that it appears in your Github page
 
-.. .. image:: https://travis-ci.org/|github_user|/|project_name|.svg?branch=master
-    :target: https://travis-ci.org/|github_user|/|project_name|
+.. .. image:: https://travis-ci.org/EpiCompBio/downstream_annotation.svg?branch=master
+    :target: https://travis-ci.org/EpiCompBio/downstream_annotation
 
 .. do the same for ReadtheDocs image:
 
 .. note that if your project is called project_Super readthedocs will convert
 .. it to project-super
 
-.. .. image:: https://readthedocs.org/projects/|project_name|/badge/?version=latest
-    :target: http://|project_name|.readthedocs.io/en/latest/?badge=latest
+.. .. image:: https://readthedocs.org/projects/EpiCompBio/badge/?version=latest
+    :target: http://downstream_annotation.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
  .. Edit manually:
@@ -26,7 +26,7 @@
 
 
 ################################################
-|project_name|
+downstream_annotation
 ################################################
 
 
@@ -36,16 +36,9 @@
 .. For a discussion/approach see 
     http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
 
-|short_description|
 
 
-|long_description|
-
-Features
---------
-
-- Something really useful
-- Makes things faster
+Wrapper scripts and tools for annotation of SNPs and results from GWAS and QTL studies
 
 
 Requirements
@@ -65,7 +58,7 @@ Installation
 
 .. code-block:: bash
    
-    pip install git+git://github.com/|github_user|/|project_name|.git
+    pip install git+git://github.com/EpiCompBio/downstream_annotation.git
 
 
 To use
@@ -73,14 +66,9 @@ To use
 
 .. code-block:: bash
 
-    # Create a folder or a whole data science project, e.g. project_quickstart -n QTL_project
-    cd QTL_project/results
-    mkdir tests ; cd tests
-    # Download test files, e.g.:
-    wget -nH -np -r --cut-dirs=4 -A .txt http://www.bios.unc.edu/research/genomic_software/Matrix_eQTL/Sample_Data/
-    python pipeline_QTL --help
-    python pipeline_QTL config
-    etc
+    # Create a folder or a whole data science project, e.g. project_quickstart -n annotate_qtl
+    cd annotate_qtl/results
+    xxxx
 
 
 
@@ -89,11 +77,8 @@ Contribute
 
 - `Issue Tracker`_
   
-.. _`Issue Tracker`: github.com/|github_user|/|project_name|/issues
+.. _`Issue Tracker`: github.com/EpiCompBio/|project_name|/issues
 
-- `Source Code`_
-  
-.. _`Source Code`: github.com/|github_user|/|project_name|
 
 - Pull requests welcome!
 
