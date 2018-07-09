@@ -67,5 +67,10 @@ cat ${outfile6} | wc -l
 
 # Delete intermediate files:
 rm -f ${outfile} ${outfile2} ${outfile3} ${outfile4} ${outfile5}
+
+
+# TO DO: sanity check intervals, convert negatives to 0, test GAT interval merging for positions where starts
+# are highers than ends
+
 echo 'Done'
 ###########################

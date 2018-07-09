@@ -193,6 +193,8 @@ if (is.null(args[['--interval']]) == FALSE) {
   print('Interval not created.')
 }
 
+# TO DO: sanity check intervals, convert negatives to 0, test GAT interval merging for positions where starts
+# are highers than ends
 print('Output file first few lines:')
 head(input_data)
 ######################
